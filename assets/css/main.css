@@ -31,7 +31,6 @@
 		margin: 0;
 		padding: 0;
 		border: 0;
-		font-size: 100%;
 		font: inherit;
 		vertical-align: baseline;
 	}
@@ -53,7 +52,6 @@
 	}
 
 	blockquote:before, blockquote:after, q:before, q:after {
-		content: '';
 		content: none;
 	}
 
@@ -153,14 +151,12 @@
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-size: 14pt;
 		font-weight: 300;
-		line-height: 2;
-		letter-spacing: 0.2em;
 	}
 
 		@media screen and (max-width: 1680px) {
 
 			body, input, select, textarea {
-				font-size: 11pt;
+				font-size: 14pt;
 			}
 
 		}
@@ -168,7 +164,7 @@
 		@media screen and (max-width: 480px) {
 
 			body, input, select, textarea {
-				font-size: 10pt;
+				font-size: 14pt;
 				line-height: 1.75;
 			}
 
@@ -179,7 +175,7 @@
 		-webkit-transition: color 0.2s ease, border-color 0.2s ease;
 		-ms-transition: color 0.2s ease, border-color 0.2s ease;
 		transition: color 0.2s ease, border-color 0.2s ease;
-		color: inherit;
+		color: rgb(33, 152, 165);
 		text-decoration: none;
 	}
 
@@ -219,7 +215,6 @@
 
 	h1 {
 		font-size: 1.85em;
-		letter-spacing: 0.22em;
 		margin: 0 0 0.525em 0;
 	}
 
